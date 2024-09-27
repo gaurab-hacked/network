@@ -1,0 +1,11 @@
+Step 1: javac Server/*.java
+
+Step 2: cp Server/Adder.class Client/
+
+Step 3: javac -cp . Client/Client.java
+
+Step 4: rmiregistry
+
+Step 5: java Server.Server
+
+Step 6: java Client.Client
